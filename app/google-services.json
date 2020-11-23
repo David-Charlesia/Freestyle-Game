@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "107585153081",
+    "firebase_url": "https://freestyle-game.firebaseio.com",
+    "project_id": "freestyle-game",
+    "storage_bucket": "freestyle-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107585153081:android:86329e04bb3ebaf761c5e8",
+        "android_client_info": {
+          "package_name": "com.energer.addwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107585153081-2t0qbrn6p1e9hlpbtmrksh5qsi50ee1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpoJfydKbVYn7dtgae91E1MIo-N8YsXV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107585153081-2t0qbrn6p1e9hlpbtmrksh5qsi50ee1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107585153081:android:c70043f4f2ad126561c5e8",
+        "android_client_info": {
+          "package_name": "com.energer.freestylegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107585153081-t1qlhdr3u9npk8vtce9q914ekqgs5lcj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.energer.freestylegame",
+            "certificate_hash": "d78071060f122b491fe18508b0d85f006f79e146"
+          }
+        },
+        {
+          "client_id": "107585153081-clsop1ovqr7366spgqls3bbhtvfhho0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.energer.freestylegame",
+            "certificate_hash": "96d67c97b85838bdbbf1078912eee3a452c30b6d"
+          }
+        },
+        {
+          "client_id": "107585153081-2t0qbrn6p1e9hlpbtmrksh5qsi50ee1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpoJfydKbVYn7dtgae91E1MIo-N8YsXV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107585153081-2t0qbrn6p1e9hlpbtmrksh5qsi50ee1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

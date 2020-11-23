@@ -1,0 +1,84 @@
+<resources>
+    <style name="Freestyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/FreestyleText</item>
+        <item name="android:buttonStyle">@style/FreestyleButton</item>
+    </style>
+
+    <style name="Freestyle.Main">
+        <item name="fontFamily">@font/wolland</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="FreestyleBar">
+        <item name="fontFamily">@font/night_shift</item>
+    </style>
+
+    <style name="Freestyle.Main.title">
+        <item name="fontFamily">@font/blazed</item>
+        <item name="android:textSize">@dimen/daTitle</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <!-- TEXT VIEW -->
+    <style name="FreestyleText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="fontFamily">@font/night_shift</item>
+    </style>
+
+    <style name="FreestyleText2" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_recycler</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="fontFamily">@font/wolland</item>
+    </style>
+
+    <style name="FreestyleText.Title">
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <!-- BUTTON -->
+    <style name="FreestyleButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/background_light</item>
+        <item name="colorButtonNormal">@color/text_dark</item>
+    </style>
+
+
+
+    <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
+
+
+
+    <style name="FreestyleButton.set">
+        <item name="tint">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="GameWord" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/neufreit_extrabold</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="GameWord.Theme">
+        <item name="fontFamily">@font/neufreit_extrabold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/daTitle</item>
+    </style>
+
+    <style name="GameWordOther">
+        <item name="fontFamily">@font/wolland</item>
+        <item name="android:textSize">@dimen/text_game</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+
+</resources>

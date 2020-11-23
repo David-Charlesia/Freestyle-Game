@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APP BASE -->
+    <color name="colorPrimary">#FFAA00</color>
+    <color name="colorPrimaryDark">#C38200</color>
+    <color name="colorAccent">#FF7400</color>
+
+    <!-- BACKGROUND -->
+    <color name="background">#456889 </color>
+    <color name="background_gray">#213242</color>
+    <color name="background_light">#F6E897 </color>
+
+    <!-- TEXTVIEW -->
+    <color name="text_normal">#FFD56E</color>
+    <color name="text_dark">#213242</color>
+    <color name="text_light">#F6E897</color>
+
+    <!-- BUTTON -->
+    <color name="blue">#756FFF</color>
+</resources>

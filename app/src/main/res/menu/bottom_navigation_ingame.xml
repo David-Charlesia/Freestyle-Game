@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_rec"
+        android:title="@string/nav_rec"
+        android:icon="@drawable/rec"/>
+
+    <item android:id="@+id/nav_stoprec"
+        android:title="@string/nav_stoprec"
+        android:icon="@drawable/stop"
+        android:visible="false"/>
+
+    <item android:id="@+id/nav_stopgame"
+        android:title="@string/nav_stopgame"
+        android:icon="@drawable/stop"/>
+
+    <item android:id="@+id/nav_discover"
+        android:title="@string/nav_live"
+        android:icon="@drawable/live"/>
+
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Freestyle Game</string>
+
+    <string name="nav_rec">Enregistrer</string>
+    <string name="nav_stoprec">Arrêter l\'enregistrement</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_discover">Decouvrir</string>
+    <string name="nav_live">Passer en live</string>
+    <string name="nav_stopgame">Arreter le jeu</string>
+
+    <string name="how_many_player">Entrez le nombre de joueurs</string>
+
+    <string name="restart">Recommencer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="connection_succeed">Connection réussie !</string>
+    <string name="error_authentication_canceled">Inscription annuler</string>
+    <string name="error_no_internet">Vous n\'êtes pas connecté à internet</string>
+    <string name="error_unknown_error">Erreur, veuillez recommencer</string>
+
+    <string name="welcome">Bienvenue</string>
+    <string name="sign_out">Deconnexion</string>
+
+
+    <string name="launch">Lancer</string>
+
+    <string name="voted_win"> a reçu le RESPECT de la street</string>
+    <string name="voted_loose"> a été bani de la street</string>
+
+    <string name="launch_game">Toucher Lancer pour commencer la partie</string>
+    <string name="next">Tour suivant : </string>
+    <string name="vote_on">Voter sur la performance de </string>
+    <string name="in_sec"> dans </string>
+    <string name="next_sec">C\'est au tour de </string>
+    <string name="seconds"> secondes !</string>
+
+    <string name="on_freestyle"> est en train de freestyler ban-banks</string>
+    <string name="has_win"> a gagné la partie. Fin du jeu.</string>
+</resources>

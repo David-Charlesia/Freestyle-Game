@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.fragments.HomeFragment"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/home_layout">
+
+    <TextView
+        style="@style/Freestyle.Main.title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="90dp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/welcome_home"
+        android:id="@+id/welcome"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_fsg_redim"
+        android:id="@+id/play"
+        android:layout_gravity="center"
+        android:padding="0in"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_out"
+        android:text="@string/sign_out"/>
+
+
+
+</FrameLayout>
