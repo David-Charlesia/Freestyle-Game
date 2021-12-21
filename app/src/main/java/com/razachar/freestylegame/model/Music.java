@@ -1,4 +1,4 @@
-package com.energer.freestylegame.model;
+package com.razachar.freestylegame.model;
 
 public class Music {
     private int id;

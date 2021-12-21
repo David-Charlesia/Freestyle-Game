@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.energer.freestylegame.R;
-import com.energer.freestylegame.model.Player;
+import com.razachar.freestylegame.R;
+import com.razachar.freestylegame.model.Player;
 
 import java.util.ArrayList;
 

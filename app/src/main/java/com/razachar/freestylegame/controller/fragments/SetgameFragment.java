@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller.fragments;
+package com.razachar.freestylegame.controller.fragments;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import com.energer.freestylegame.controller.MyAdapter;
-import com.energer.freestylegame.model.Player;
-import com.energer.freestylegame.R;
+import com.razachar.freestylegame.controller.MyAdapter;
+import com.razachar.freestylegame.model.Player;
+import com.razachar.freestylegame.R;
 import java.util.ArrayList;
 
 
@@ -106,7 +106,7 @@ public class SetgameFragment extends Fragment{
                     break;
 
                 case R.id.button_play:
-                    Intent GameActivity=new Intent(getContext(), com.energer.freestylegame.controller.GameActivity.class);
+                    Intent GameActivity=new Intent(getContext(), com.razachar.freestylegame.controller.GameActivity.class);
 
                     Bundle bundle = new Bundle();
                     bundle.putParcelableArrayList("players", players);

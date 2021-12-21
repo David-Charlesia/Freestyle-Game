@@ -1,23 +1,19 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageButton;
 
-import com.energer.freestylegame.controller.fragments.DiscoverFragment;
-import com.energer.freestylegame.controller.fragments.HomeFragment;
-import com.energer.freestylegame.R;
-import com.energer.freestylegame.controller.fragments.RecFragment;
-import com.energer.freestylegame.controller.fragments.SetgameFragment;
-import com.energer.freestylegame.model.Player;
+import com.razachar.freestylegame.controller.fragments.DiscoverFragment;
+import com.razachar.freestylegame.controller.fragments.HomeFragment;
+import com.razachar.freestylegame.R;
+import com.razachar.freestylegame.controller.fragments.RecFragment;
+import com.razachar.freestylegame.controller.fragments.SetgameFragment;
+import com.razachar.freestylegame.model.Player;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.android.gms.tasks.OnSuccessListener;

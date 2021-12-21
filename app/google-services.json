@@ -37,26 +37,18 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:107585153081:android:c70043f4f2ad126561c5e8",
+        "mobilesdk_app_id": "1:107585153081:android:5eee849527a7369e61c5e8",
         "android_client_info": {
-          "package_name": "com.energer.freestylegame"
+          "package_name": "com.razachar.freestylegame"
         }
       },
       "oauth_client": [
         {
-          "client_id": "107585153081-t1qlhdr3u9npk8vtce9q914ekqgs5lcj.apps.googleusercontent.com",
+          "client_id": "107585153081-tqd1g6v325d1tsd64ede0tvfm55e3ip9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.energer.freestylegame",
-            "certificate_hash": "d78071060f122b491fe18508b0d85f006f79e146"
-          }
-        },
-        {
-          "client_id": "107585153081-clsop1ovqr7366spgqls3bbhtvfhho0k.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.energer.freestylegame",
-            "certificate_hash": "96d67c97b85838bdbbf1078912eee3a452c30b6d"
+            "package_name": "com.razachar.freestylegame",
+            "certificate_hash": "1e15a27dcd8a8fdf4292b34aefc8a4689e0ee644"
           }
         },
         {

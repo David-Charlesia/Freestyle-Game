@@ -1,4 +1,4 @@
-package com.energer.freestylegame;
+package com.razachar.freestylegame;
 
 import android.content.Context;
 

@@ -1,4 +1,5 @@
 <resources>
+    <string name="space"> </string>
     <string name="app_name">Freestyle Game</string>
 
     <string name="nav_rec">Enregistrer</string>
@@ -38,4 +39,26 @@
 
     <string name="on_freestyle"> est en train de freestyler ban-banks</string>
     <string name="has_win"> a gagné la partie. Fin du jeu.</string>
+
+    <string name="continue_slide">Continuer</string>
+
+    <string name="slide_1_name">Configuration du jeu</string>
+    <string name="slide_1_explication">Ajoutez le nombre de joueurs totale pour la partie. Renommez les aussi !</string>
+
+    <string name="slide_2_name">Règles</string>
+    <string name="slide_2_explication">Le premier mot est le thème. Votre couplet doit être en rapport avec celui-ci. \nVous devez placer les 4 autres mots dans votre couplet !</string>
+
+    <string name="slide_3_name">Déroulement du jeu 1/2</string>
+    <string name="slide_3_explication">Le nom du joueur qui va freestyler au tour suivant est afficher à droite de la flèche. \nUn compte à rebours de 10 secondes apparait quand le tour approche.</string>
+    
+    <string name="slide_4_name">Déroulement du jeu 2/2</string>
+    <string name="slide_4_explication">Les autres joueurs doivent voter après chaque couplet pour le valider ou pas.\nSi il n\'est pas validé, le joueur sors du jeu, le gagnant est le dernier joueur restant.</string>
+
+    <string name="listen_beat">Ecoute du beat...</string>
+
+    <string name="pseudo">ton pseudo</string>
+
+    <string name="rank">Classement :</string>
+
+    <string name="on_dev">Fonctionnalité en développement. Revenez plus tard !</string>
 </resources>

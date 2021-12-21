@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,9 +13,9 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         SharedPreferences user=this.getSharedPreferences("user",MODE_PRIVATE);
 
-        if(FirebaseAuth.getInstance().getCurrentUser()==null){
+        if (FirebaseAuth.getInstance().getCurrentUser()==null) {
             startActivity(new Intent(this,PresentationActivity.class));
-        }else {
+        } else {
             startActivity(new Intent(this,MainActivity.class));
         }
         finish();

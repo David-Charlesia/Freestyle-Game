@@ -1,15 +1,12 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.energer.freestylegame.R;
+import com.razachar.freestylegame.R;
 
 public class PresentationActivity extends AppCompatActivity {
 

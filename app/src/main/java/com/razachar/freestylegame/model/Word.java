@@ -1,6 +1,4 @@
-package com.energer.freestylegame.model;
-
-import androidx.annotation.NonNull;
+package com.razachar.freestylegame.model;
 
 import java.util.List;
 

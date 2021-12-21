@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.energer.freestylegame.R;
+import com.razachar.freestylegame.R;
 
 public class SlideAdapter extends PagerAdapter {
     Context context;

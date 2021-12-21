@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller.fragments;
+package com.razachar.freestylegame.controller.fragments;
 
 import android.os.Bundle;
 
@@ -8,15 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.energer.freestylegame.R;
+import com.razachar.freestylegame.R;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DiscoverFragment extends Fragment {
+public class RecFragment extends Fragment {
 
-    public DiscoverFragment() {
+    public RecFragment() {
         // Required empty public constructor
     }
 
@@ -25,6 +25,6 @@ public class DiscoverFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_discover, container, false);
+        return inflater.inflate(R.layout.fragment_rec, container, false);
     }
 }

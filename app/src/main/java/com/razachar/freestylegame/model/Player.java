@@ -1,9 +1,9 @@
-package com.energer.freestylegame.model;
+package com.razachar.freestylegame.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.energer.freestylegame.R;
+import com.razachar.freestylegame.R;
 
 public class Player implements Parcelable {
     private String name;

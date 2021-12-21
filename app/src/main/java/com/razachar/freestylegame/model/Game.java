@@ -1,6 +1,4 @@
-package com.energer.freestylegame.model;
-
-import android.widget.TextView;
+package com.razachar.freestylegame.model;
 
 import java.util.ArrayList;
 

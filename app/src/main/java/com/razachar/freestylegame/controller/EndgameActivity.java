@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.energer.freestylegame.R;
-import com.energer.freestylegame.model.Player;
+import com.razachar.freestylegame.R;
+import com.razachar.freestylegame.model.Player;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -39,7 +39,7 @@ public class EndgameActivity extends AppCompatActivity {
         btn_restart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent MainActivity=new Intent(EndgameActivity.this,com.energer.freestylegame.controller.MainActivity.class);
+                Intent MainActivity=new Intent(EndgameActivity.this,com.razachar.freestylegame.controller.MainActivity.class);
                 Bundle bundle=new Bundle();
                 bundle.putParcelableArrayList("players",classement);
                 bundle.putInt("id",1);

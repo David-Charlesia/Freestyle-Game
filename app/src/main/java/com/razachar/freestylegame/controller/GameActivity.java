@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller;
+package com.razachar.freestylegame.controller;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +15,10 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import com.energer.freestylegame.R;
-import com.energer.freestylegame.model.Music;
-import com.energer.freestylegame.model.Player;
-import com.energer.freestylegame.model.Word;
+import com.razachar.freestylegame.R;
+import com.razachar.freestylegame.model.Music;
+import com.razachar.freestylegame.model.Player;
+import com.razachar.freestylegame.model.Word;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -126,7 +126,7 @@ public class GameActivity extends AppCompatActivity {
         current_player.setText(R.string.launch_game);
         id_current_player = 0;
 
-        ch = getString(R.string.next) + players.get(id_current_player).getName();
+        ch = getString(R.string.next) + getString(R.string.space) + players.get(id_current_player).getName();
         countdown.setText(ch);
     }
 
@@ -257,7 +257,7 @@ public class GameActivity extends AppCompatActivity {
         public void run() {
             btn_loose.setVisibility(View.VISIBLE);
             btn_win.setVisibility(View.VISIBLE);
-            String ch = getString(R.string.vote_on) + players.get(id_current_player).getName();
+            String ch = getString(R.string.vote_on) + getString(R.string.space) + players.get(id_current_player).getName();
             current_player.setText(ch);
         }
     };
@@ -285,7 +285,7 @@ public class GameActivity extends AppCompatActivity {
 
         @Override
         public void onTick(long l) {
-            ch = getString(R.string.next_sec) + players.get(id_current_player).getName() + getString(R.string.in_sec) + (l / 1000) + getString(R.string.seconds);
+            ch = getString(R.string.next_sec) + getString(R.string.space) + players.get(id_current_player).getName() + getString(R.string.space) + getString(R.string.in_sec) + (l / 1000) + getString(R.string.space) + getString(R.string.seconds);
             countdown.setText(ch);
         }
 
@@ -295,10 +295,10 @@ public class GameActivity extends AppCompatActivity {
             if (next == players.size()) {
                 next = 0;
             }
-            ch = players.get(id_current_player).getName() + getString(R.string.on_freestyle);
+            ch = players.get(id_current_player).getName() + getString(R.string.space) + getString(R.string.on_freestyle);
             current_player.setText(ch);
 
-            ch = getString(R.string.next) + players.get(next).getName();
+            ch = getString(R.string.next) + getString(R.string.space) + players.get(next).getName();
             countdown.setText(ch);
         }
     };
@@ -325,7 +325,7 @@ public class GameActivity extends AppCompatActivity {
             switch (view.getId()) {
                 case R.id.win:
                     players.get(id_current_player).increaseScore();
-                    ch = players.get(id_current_player).getName() + getString(R.string.voted_win);
+                    ch = players.get(id_current_player).getName() + getString(R.string.space) + getString(R.string.voted_win);
                     current_player.setText(ch);
                     id_current_player += 1;
 
@@ -355,7 +355,7 @@ public class GameActivity extends AppCompatActivity {
 
                 endGame();
 
-                Intent EndgameActivity = new Intent(GameActivity.this, com.energer.freestylegame.controller.EndgameActivity.class);
+                Intent EndgameActivity = new Intent(GameActivity.this, com.razachar.freestylegame.controller.EndgameActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putParcelableArrayList("classement", classement);
                 EndgameActivity.putExtras(bundle);

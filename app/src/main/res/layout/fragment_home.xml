@@ -34,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sign_out"
+        android:layout_gravity="bottom"
         android:text="@string/sign_out"/>
 
 

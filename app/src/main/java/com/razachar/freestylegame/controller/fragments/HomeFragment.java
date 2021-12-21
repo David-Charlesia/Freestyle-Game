@@ -1,4 +1,4 @@
-package com.energer.freestylegame.controller.fragments;
+package com.razachar.freestylegame.controller.fragments;
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
@@ -16,9 +16,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.energer.freestylegame.R;
-import com.energer.freestylegame.controller.SplashScreen;
-import com.energer.freestylegame.model.Player;
+import com.razachar.freestylegame.R;
+import com.razachar.freestylegame.controller.SplashScreen;
+import com.razachar.freestylegame.model.Player;
 import com.firebase.ui.auth.AuthUI;
 
 import java.util.ArrayList;
@@ -48,7 +48,6 @@ public class HomeFragment extends Fragment {
     }
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
@@ -71,7 +70,7 @@ public class HomeFragment extends Fragment {
                     @Override
                     public void onSuccess(DocumentSnapshot documentSnapshot) {
                         players.add(new Player(documentSnapshot.getString("pseudo"),id));
-                        Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction().replace(R.id.frame_container,new SetgameFragment(players)).commit();
+                        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_container,new SetgameFragment(players)).commit();
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
@@ -88,7 +87,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 AuthUI.getInstance()
-                        .signOut(Objects.requireNonNull(getContext()))
+                        .signOut(requireContext())
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {

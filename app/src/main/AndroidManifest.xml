@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.energer.freestylegame">
+    package="com.razachar.freestylegame">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -9,14 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Freestyle">
-        <activity android:name=".controller.PresentationActivity"></activity>
-        <activity android:name=".controller.Information" />
+        <activity android:name="com.razachar.freestylegame.controller.PresentationActivity"></activity>
+        <activity android:name="com.razachar.freestylegame.controller.Information" />
         <activity
-            android:name=".controller.MainActivity"
+            android:name="com.razachar.freestylegame.controller.MainActivity"
             android:theme="@style/Freestyle" />
-        <activity android:name=".controller.GameActivity" />
+        <activity android:name="com.razachar.freestylegame.controller.GameActivity" />
         <activity
-            android:name=".controller.SplashScreen"
+            android:name="com.razachar.freestylegame.controller.SplashScreen"
             android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,11 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".controller.EndgameActivity" />
+        <activity android:name="com.razachar.freestylegame.controller.EndgameActivity" />
     </application>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>
