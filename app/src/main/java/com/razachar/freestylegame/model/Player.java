@@ -8,29 +8,15 @@ import com.razachar.freestylegame.R;
 public class Player implements Parcelable {
     private String name;
     private int img;
-    private String id;
     private int score;
 
     public Player(String name){
         this.name=name;
         this.img= R.drawable.user;
-        this.id="0";
         this.score=0;
     }
 
-    public Player(String name, String id){
-        this.name=name;
-        this.id=id;
-        this.img= R.drawable.user;
-        this.score=0;
-    }
 
-    public Player(String name, String id,int img){
-        this.name=name;
-        this.id=id;
-        this.img=img;
-        this.score=0;
-    }
 
     public String getName(){return this.name;}
 
@@ -39,10 +25,6 @@ public class Player implements Parcelable {
     public void setImg(int img) {this.img = img;}
 
     public void setName(String name) {this.name = name;}
-
-    public String getId() {return id;}
-
-    public void setId(String id) {this.id = id;}
 
     public int getScore() {
         return score;
@@ -59,7 +41,6 @@ public class Player implements Parcelable {
     protected Player(Parcel in) {
         name = in.readString();
         img = in.readInt();
-        id = in.readString();
         score=in.readInt();
     }
 
@@ -87,7 +68,6 @@ public class Player implements Parcelable {
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(name);
         parcel.writeInt(img);
-        parcel.writeString(id);
         parcel.writeInt(score);
     }
 }
